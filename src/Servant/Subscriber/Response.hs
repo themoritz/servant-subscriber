@@ -6,7 +6,7 @@ module Servant.Subscriber.Response where
 import qualified Blaze.ByteString.Builder       as B
 import qualified Blaze.ByteString.Builder.Char8 as B
 import           Data.Aeson
-import           Data.Aeson.Parser              (value)
+import           Data.Aeson.Encoding            (value)
 import           Data.Aeson.Types               (unsafeToEncoding)
 import           Data.Attoparsec.ByteString     (parseOnly)
 import           Data.Bifunctor
